@@ -11,7 +11,6 @@ body {
 .header {
     background-color: #1f2937;
     padding: 10px 20px;
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -55,3 +54,46 @@ footer {
     font-size: 16px;
 
 }
+
+/* .media-objects {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 1px;
+    flex-direction: row-reverse;
+} */
+
+/* img {
+    max-width: 100px or
+    height: auto;
+    width: 100px
+} */
+
+/* .about {
+    padding: 0px; (maybe)
+    gap: 5px;
+} */
+
+/* #title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+} */
+
+/* .text {
+    font-size: 16px;
+    color: #e5e7eb;
+} */
+
+/* .about button {
+    background-color: #3882f6;
+    border-radius: 10px;
+} */
+
+/* .about a {
+   font-size: 10px;
+   color: white;
+   padding: 3px 8px;
+} */
