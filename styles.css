@@ -33,6 +33,7 @@ a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 500;
+    border: 2px solid orange;
 }
 
 .header-left a {
@@ -52,48 +53,97 @@ footer {
     justify-content: center;
     padding: 20px;
     font-size: 16px;
+    
 
 }
 
-/* .media-objects {
+ .media-objects {
     background-color: #1f2937;
-    padding: 10px 20px;
+    padding: 20px 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    margin-top: 1px;
+    justify-content: space-around; 
     flex-direction: row-reverse;
-} */
+    height: 200px;
+    border: 2px solid green;  
+   
+} 
 
-/* img {
-    max-width: 100px or
-    height: auto;
-    width: 100px
-} */
+img { /*might come back later */
+    
+    height: 130px;
+    width: 250px;
+} 
 
-/* .about {
-    padding: 0px; (maybe)
-    gap: 5px;
-} */
+.about { /* Came upon an issue, cannot align the about class with the logo, as well as the image to the end of the 3rd link */
+    padding: 10px;
+    flex: 1;
+    border: 2px solid pink;
 
-/* #title {
-    font-size: 48px;
+} 
+
+#title {
+    font-size: 28px;
     font-weight: bolder;
     color: #f9faf8;
-} */
+} 
 
-/* .text {
-    font-size: 16px;
+ .text {
+    font-size: 12px;
     color: #e5e7eb;
-} */
+    margin-bottom: 8px;
+} 
 
-/* .about button {
+.about button {
     background-color: #3882f6;
-    border-radius: 10px;
-} */
+    border-radius: 3px;
+    border: #3882f6;;
+    padding: 3px 8px;
+} 
 
-/* .about a {
-   font-size: 10px;
+.about a {
+   font-size: 12px;
+   font-weight: 600;
    color: white;
-   padding: 3px 8px;
+   text-align: center;
+   padding: 5px 8px;
+  
+} 
+
+/* .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px; OR 30px;
+    paddining: 0px 40px; (not sure if needed if spaced-around)
+
+    .services div {
+        font-size: 20px;
+        font-weight: bolder;
+        color: #1f2937;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; OR space-evenly;
+        gap: 20px; 
+    }
+
+    .box{
+        border: 2px solid blue;
+        height: auto;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    .texts {
+        font-size: 10px;
+        color: grey;
+        text-align: center;
+    }
 } */
