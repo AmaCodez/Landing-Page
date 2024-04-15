@@ -6,6 +6,7 @@ body {
      justify-content: space-between;
      margin: 0;
      
+     
 }
 
 .header {
@@ -63,6 +64,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
+    /* gap: 150px; */
     /* height: 200px; */
     /* border: 2px solid green;   */
    
@@ -112,7 +114,7 @@ img { /*might come back later */
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    gap: 10px;
+    gap: 8px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -148,6 +150,7 @@ img { /*might come back later */
         border-radius: 10px;
         text-align: center;
         flex-shrink: 0; 
+        /* line-height: 85px;  this makes the text inside the box to be aligned in the center without flexbox*/
     }
 
     .texts {
@@ -155,4 +158,26 @@ img { /*might come back later */
         color: grey;
         text-align: center; 
         width: 100px;
+    }
+
+    /* .inspo {
+        background-color: #e5e7eb;
+        text-align: center;
+        line-height: 50px; (depending on the height)
+        padding: 50px 100px;
+        height: 50px (test if you need height or not)
+        gap: 5px;
+
+        .inspo div {
+            font-size: 30px;
+            font-weight: light italic;
+            color: #1f2937;
+        }
+
+        .inspo p {
+            font-size: 10px;
+            font-weight: bold;
+            marign-left: auto;
+        }
+
     }
