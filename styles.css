@@ -5,6 +5,7 @@ body {
      flex-direction: column;
      justify-content: space-between;
      margin: 0;
+     /* min-height: 100vh; */
      
      
 }
@@ -43,7 +44,9 @@ a {
 
 /* .content { 
     flex: 1;
-} */
+    /* height: 164px; height of all children is this
+}*/ 
+
 
 footer {
     background-color: #1f2937 ;
@@ -65,14 +68,12 @@ footer {
     justify-content: center;
     flex-direction: row-reverse;
     /* gap: 150px; */
-    /* height: 200px; */
     /* border: 2px solid green;   */
    
 } 
 
-img { /*might come back later */
-    
-    height: 150px;
+img { /*might come back later */ 
+    height: 160px;
     width: 330px;
 } 
 
@@ -80,6 +81,7 @@ img { /*might come back later */
     padding: 10px;
     height: 130px;
     width: 330px;
+    flex-shrink: 0;
 } 
 
 #title {
@@ -160,24 +162,37 @@ img { /*might come back later */
         width: 100px;
     }
 
-    /* .inspo {
+     .inspo {
         background-color: #e5e7eb;
-        text-align: center;
-        line-height: 50px; (depending on the height)
-        padding: 50px 100px;
-        height: 50px (test if you need height or not)
+        padding: 50px;
         gap: 5px;
+        border: 2px solid blue;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        /* flex: 0; (this is acc default)*/
+        
+     }
 
-        .inspo div {
-            font-size: 30px;
-            font-weight: light italic;
+     .inspo-child {
+        /* border: 2px solid pink; */
+        flex-basis: 500px;
+        padding-top: 20px ;
+     }
+         .inspo-child div {
+            font-size: 18px;
+            font-weight: 100;
+            font-style: italic;
             color: #1f2937;
+            font-family: Helvetica, sans-serif;
         }
 
-        .inspo p {
-            font-size: 10px;
+       .inspo-child p {
+            font-size: 15px;
             font-weight: bold;
-            marign-left: auto;
+            text-align: right;
+            /* border: 2px solid green; */
+            /* margin-right: 30px; */
+            padding-right: 30px;
         }
 
-    }
