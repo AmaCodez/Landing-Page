@@ -64,7 +64,7 @@ a {
     flex-direction: row-reverse; 
     padding: 40px;
     /* border: 2px solid brown; */
-    gap: 50px;
+    gap: 100px;
     
 }
 img { /*might come back later */ 
