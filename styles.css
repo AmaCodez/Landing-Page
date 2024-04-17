@@ -42,10 +42,10 @@ a {
     font-size: 18px;
 }
 
-/* .content { 
+.page { 
     flex: 1;
-    /* height: 164px; height of all children is this
-}*/ 
+    height: 164px; 
+ } 
 
 
 footer {
