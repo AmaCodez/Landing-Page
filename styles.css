@@ -12,9 +12,8 @@ body {
 
 .header {
     background-color: #1f2937;
-     padding: 20px 200px;
+    padding: 20px 200px;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     
 }
@@ -63,7 +62,7 @@ img {
 
 .about { /* Came upon an issue, cannot align the about class with the logo, as well as the image to the end of the 3rd link 
     I just needed to increase padding in the parent */
-    width: 400px;
+    width: 420px;
     flex-shrink: 0;
 } 
 
@@ -156,11 +155,6 @@ h1 {
         flex-direction: column;
      }
 
-     /* .inspo-child {
-        /* border: 2px solid pink; */
-        /* flex-basis: 500px;
-        padding-top: 20px ;
-     } */ 
          .inspo div {
             font-size: 30px;
             font-weight: 100;
