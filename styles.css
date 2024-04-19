@@ -84,7 +84,7 @@ h1 {
     background-color: #3882f6;
     border-radius: 5px;
     border: #3882f6;
-    padding: 12px 24px;
+    padding: 10px 20px;
 } 
 
 .about a {
@@ -92,7 +92,7 @@ h1 {
    font-weight: 600;
    color: white;
    text-align: center;
-   padding: 15px 24px;
+   padding: 13px 20px;
   
 } 
 /* Second child (Services) */
